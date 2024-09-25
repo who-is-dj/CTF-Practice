@@ -1,0 +1,28 @@
+The Numbers
+Author: Danny
+
+Description
+The numbers... what do they mean?
+debug info: [u:506429 e: p: c:68 i:162]
+
+Hints 
+The flag is in the format PICOCTF{}
+
+  
+file conent shows image of numbers:
+16 9 3 15 3 20 6 {20 8 5 14 21 13 2 5 18 19 13 1 19 15 14}
+
+Solution:
+it looks obvious that numbers are used as a substitute for letters
+
+either convert manually or use cyberchef
+convert this first without space at the end 16 9 3 15 3 20 6
+
+A1Z26_Cipher_Decode('Space')            picoctf	
+
+
+then convert  without brackets {20 8 5 14 21 13 2 5 18 19 13 1 19 15 14}
+
+
+
+
