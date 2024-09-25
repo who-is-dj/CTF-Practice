@@ -1,0 +1,18 @@
+13
+Author: Alex Fulton/Daniel Tunitis
+
+Description
+Cryptography can be easy, do you know what ROT13 is? cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}
+debug info: [u:506429 e: p: c:62 i:150]
+
+Hints 
+This can be solved online if you don't want to do it by hand!
+
+
+
+solution:
+┌─[dhananjay@parrot]─[~/Downloads]
+└──╼ $rot13 "cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}"
+picoCTF{---------}
+
+use rot13 in cyberchef and keep changing numbers until you see a readable text 
